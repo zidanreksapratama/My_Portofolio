@@ -742,7 +742,94 @@ span{
     grid-template-columns: repeat (1,1fr);
   }
 }
-  
+@media (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+
+  header {
+    padding: 1.5rem 2rem;
+  }
+
+  section {
+    padding: 8rem 2rem 2rem;
+  }
+
+  .home {
+    margin: 4rem 2rem;
+  }
+
+  .home-content h1 {
+    font-size: 5rem;
+  }
+
+  .home-content h3 {
+    font-size: 2.2rem;
+  }
+
+  .home-img img {
+    width: 70vw;
+  }
+
+  .services-container {
+    grid-template-columns: 1fr;
+    margin: 2rem 0;
+    padding-bottom: 5rem;
+  }
+
+  .testimonials .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-items::before {
+    left: 5px;
+  }
+
+  .timeline-item:nth-child(odd), 
+  .timeline-item:nth-child(even) {
+    padding-left: 30px;
+    text-align: left;
+  }
+
+  .timeline-dot {
+    left: 0;
+  }
+
+  .contact form {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .footer {
+    padding: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .navbar {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .navbar a {
+    font-size: 1.8rem;
+    margin: 2rem 0;
+  }
+}
+@media (max-width: 400px) {
+  .home-content h1 {
+    font-size: 4rem;
+  }
+
+  .home-content h3 {
+    font-size: 2rem;
+  }
+
+  .home-img img {
+    width: 80vw;
+  }
+}
+
   
     
   
