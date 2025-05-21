@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#home" class="logo">Zidan
+        <span>Reksa Pratama</span></a>
+
+        <i class='bx  bx-menu' id="menu-icon" ></i> 
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education" class="active">Education</a>
+            <a href="#services" class="active">Services</a>
+            <a href="#portfolio" class="active">Portfolio</a>
+            <a href="#certificates" class="active">Certificates</a>
+            <a href="#contact" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, Saya <span>Zidan Reksa</span></h1>
+            <h3 class="text-animation">Saya Adalah <span></span></h3>
+            <p>
+                Mahasiswa Teknik Informatika di Politeknik Harapan Bersama Tegal yang memiliki minat kuat dalam bidang Web Development, khususnya menggunakan Flask dan Laravel. Memiliki pemahaman dasar dalam pengembangan aplikasi, UI/UX, dan pengelolaan proyek. Siap berkontribusi dalam tim dan belajar secara cepat di lingkungan kerja nyata.
+              </p>
+              
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/zidan-reksa-pratama-77349a255/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/zidanreksapratama" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/danz.rp28/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/share/169dzs3sM3/" target="_blank"><i class='bx bxl-facebook'></i></a>
+              </div>              
+
+            <div class="btn-group">
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+            <div class="home-img">
+                <img src="zidan.jpg" alt="">
+            </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Pendidikan</h2>
+      
+        <div class="timeline-items"> <!-- Tambahkan ini -->
+      
+          <!-- Timeline item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2019-2022</div>
+            <div class="timeline-content">
+              <h3>SMK Negeri 1 Adiwerna</h3>
+              <p>
+                Menempuh pendidikan di jurusan Teknik Pemesinan. Mempelajari proses kerja mesin perkakas seperti bubut, frais, dan gerinda, serta teknik pengukuran presisi dan penggambaran teknik. Aktif dalam praktik bengkel dan memiliki pengalaman dalam proyek permesinan di lingkungan sekolah.
+              </p>
+            </div>
+          </div>
+      
+          <!-- Timeline item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2024-Sekarang</div>
+            <div class="timeline-content">
+              <h3>Politeknik Harapan Bersama Kota Tegal</h3>
+              <p>
+                Melanjutkan studi di jurusan Teknik Informatika dengan fokus pada pengembangan perangkat lunak, jaringan komputer, dan sistem basis data. Aktif mengikuti berbagai kegiatan akademik dan praktikum untuk memperdalam keterampilan pemrograman serta pengelolaan sistem informasi.
+              </p>
+            </div>
+          </div>
+      
+        </div> <!-- Penutup .timeline-items -->
+      </section>   
+      
+      <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>UI Design</h4>
+                    <p>Saya memiliki kemampuan mendesain antarmuka yang intuitif dan estetis, mengutamakan pengalaman pengguna yang mudah dan menarik.</p>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>Frontend Development</h4>
+                    <p>Bisa membangun tampilan web yang responsif dan interaktif menggunakan HTML, CSS.</p>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>Backend Development</h4>
+                    <p>Berpengalaman dalam pengembangan backend menggunakan PHP, dan database seperti MySQL untuk membuat aplikasi yang handal dan scalable.</p>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>Testing</h4>
+                    <p>Dapat melakukan pengujian perangkat lunak untuk memastikan kualitas dan kinerja aplikasi sebelum di-deploy ke pengguna.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="portfolio" id="portfolio">
+        <h2 class="heading">Portfolio <span>Projects</span></h2>
+      
+        <div class="portfolio-container">
+          <div class="portfolio-item">
+            <img src="Jetokin.png" alt="Jejak Tokoh Indonesia">
+            <h3>Website Jejak Tokoh Indonesia</h3>
+            <p>Flask, MySQL - Website edukatif interaktif dengan fitur timeline, kuis, dan leaderboard.</p>
+          </div>
+      
+          <div class="portfolio-item">
+            <img src="Penjualan.png" alt="Website Penjualan dengan Midtrans">
+            <h3>Website Penjualan Sederhana</h3>
+            <p>CodeIgniter, Midtrans API - E-commerce dengan manajemen produk dan pembayaran online.</p>
+          </div>
+
+          <div class="portfolio-item">
+            <img src="Pemantauan.png" alt="Aplikasi Mobile">
+            <h3>Aplikasi Mobile Pencatatan ODGJ</h3>
+            <p>Flutter, Aplikasi Android untuk pencatatan data warga berdasarkan RT/RW. Mendukung entry data, pembaruan informasi, dan pencarian cepat.</p>
+          </div>
+
+          <div class="portfolio-item">
+            <img src="SPK-beasiswa-laravel.png" alt="SPK Siswa Berprestasi (Web - Laravel & AHP)">
+            <h3>SPK Siswa Berprestasi (Web - Laravel & AHP)</h3>
+            <p>Laravel, AHP Method - Sistem pendukung keputusan berbasis web untuk menentukan siswa berprestasi berdasarkan pembobotan kriteria dan metode AHP.</p>
+          </div>
+
+          <div class="portfolio-item">
+            <img src="SPK-beasiswa-java.png" alt="•	SPK Siswa Berprestasi (Desktop - Java NetBeans & AHP)">
+            <h3>SPK Siswa Berprestasi (Desktop - Java NetBeans & AHP)</h3>
+            <p>Java, NetBeans - Aplikasi desktop yang menerapkan metode AHP untuk seleksi siswa berprestasi, dengan perhitungan otomatis dan output ranking.</p>
+          </div>
+      
+          <!-- dan seterusnya untuk project lainnya -->
+        </div>
+      </section>
+
+      <section class="certificates" id="certificates">
+        <h2 class="heading">Sertifikasi & <span>Penghargaan</span></h2>
+      
+        <div class="certificate-container">
+          <div class="certificate-item">
+            <h3>Huawei Computer Networks </h3>
+            <iframe src="_Computer Networks Course.pdf" width="100%" height="500px"></iframe>
+            <p>Pelatihan pengantar jaringan komputer dari Huawei melalui Course Program.
+                Tahun: [2024]
+                </p>
+          </div>
+
+          <div class="certificate-item">
+            <h3>Huawei Computer Networks (CRA Training Program)</h3>
+            <iframe src="Computer Networks(CRA Training Program).pdf" width="100%" height="500px"></iframe>
+            <p>Pelatihan pengantar jaringan komputer dari Huawei melalui CRA Training Program.
+                Tahun: [2024]
+                </p>
+          </div>
+
+          <div class="certificate-item">
+            <h3>Huawei AI Basics Overview</h3>
+            <iframe src="AI Basics_ Overview of AI.pdf" width="100%" height="500px"></iframe>
+            <p>Pengenalan dasar Artificial Intelligence melalui pelatihan resmi dari Huawei.
+                Tahun: [2024]                
+                </p>
+          </div>
+
+          <div class="certificate-item">
+            <h3>Huawei AI Basics Overview (CRA Training Program)</h3>
+            <iframe src="Al Basic_ Overview of AI(CRA Training Program).pdf" width="100%" height="500px"></iframe>
+            <p>Pelatihan AI Basic Overview dari Huawei melalui CRA Training Program.
+                Tahun: [2024]
+                </p>
+          </div>
+
+          <div class="certificate-item">
+            <h3>Huawei Python Programming Basics</h3>
+            <iframe src="Python Programming Basics.pdf" width="100%" height="500px"></iframe>
+            <p>Kursus dasar pemrograman Python yang disediakan oleh Huawei.
+                Tahun: [2023]                
+                </p>
+          </div>
+
+          <div class="certificate-item">
+            <h3>Hak Cipta Aplikasi Jejak Tokoh Indonesia</h3>
+            <iframe src="sertifikat_2025-05-05.pdf" width="100%" height="500px"></iframe>
+            <p>Terdaftar resmi dengan surat hak cipta sebagai karya orisinal di bidang edukasi digital.</p>
+          </div>
+      
+          <div class="certificate-item">
+            <h3>Piagam Penghargaan Krenova</h3>
+            <iframe src="Piagam Penghargaan.pdf" width="100%" height="500px"></iframe>
+            <p>Penghargaan sebagai peserta lomba Krenova (Kreativitas dan Inovasi) Kota Tegal dalam kategori teknologi pendidikan.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="numbert" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Massage"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/zidan-reksa-pratama-77349a255/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/zidanreksapratama" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/danz.rp28/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.facebook.com/share/169dzs3sM3/" target="_blank"><i class='bx bxl-facebook'></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">About Me</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            &copy; 2025 Zidan Reksa Pratama. All rights reserved.
+        </p>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>
